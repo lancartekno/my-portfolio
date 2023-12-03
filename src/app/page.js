@@ -58,6 +58,14 @@ const Profile = () => (
         <br></br>
         Faris Helmi Permana adalah sosok yang berdedikasi tinggi terhadap kualitas perangkat lunak dan senantiasa berusaha untuk mencapai standar yang tinggi dalam setiap proyek yang ia tangani. Dengan kombinasi keterampilan frontend dan backend-nya, Faris memberikan kontribusi yang signifkan dalam menciptakan aplikasi web yang dinamis, efsien, dan responsif. 
         </p>
+        <br></br>
+        <br></br>
+        {/* Add a link to your profile page */}
+        <p>
+          <a href="https://port2-faris.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-cyan-500">
+            Kunjungi portofolio saya <span className="text-cyan-700">di sini</span>
+          </a>
+        </p>
       </section>
 
       <section className="mb-8">
@@ -153,5 +161,4 @@ const Profile = () => (
   </div>
 );
 
-// export
 export default Profile;
