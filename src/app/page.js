@@ -76,11 +76,11 @@ const Profile = () => (
           title="Pentester"
           role="UNJANI"
           description={
-            <div>
+            <span>
               ⚪ Menemukan celah keamanan pada website unjani menggunakan serangan SQL Injection.
               <br />
               ⚪ Mengirimkan laporan potensi bahaya keamanan pada website akademik.unjani.ac.id.
-            </div>
+            </span>
           }
         />
       </section>
@@ -127,7 +127,8 @@ const Profile = () => (
       <section className="mb-8">
         <h2 className="text-2xl font-bold mb-4">Keterampilan</h2>
         <div className="flex flex-wrap">
-          <SkillItem skill="Codeigniter" level="Menengah" />
+          <SkillItem skill="Flask" level="Menengah" />
+          <SkillItem skill="React" level="Menengah" />
           <SkillItem skill="Spreadsheet" level="Menengah" />
           <SkillItem skill="Text Formatting" level="Profesional" />
           <SkillItem skill="Design" level="Menengah" />
